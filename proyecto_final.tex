@@ -2,22 +2,28 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+
 
 \begin{document}
 
-\title{RNAs no codificantes en cáncer}
+\title{RNA no codificante en cáncer}
 \author{Álvaro Andrades Delgado}
 \date{\today}
 \maketitle
 
 \section{Resumen}
 
-\url{https://github.com/alvaro-andrades/proyecto_final} 
+En el presente texto, se recoge una revisión sobre el papel de los RNAs no codificantes en cáncer. URL del repositorio en GitHub: \url{https://github.com/alvaro-andrades/proyecto_final} 
 
-\textbf{Palabras clave:}
+\textbf{Palabras clave:} RNA no codificante, microRNA, RNA largo no codificante.
 
 
 \section{Introducción}
+
+Según la visión clásica del dogma central de la biología molecular, el DNA de las células se transcribe a RNA, el cual a su vez se traduce a proteínas\cite{Kung2013}. Según esta visión clásica, el RNA actúa como un mero intermediario entre el DNA y las proteínas. Así, clásicamente se identificaron tres tipos principales de RNA: el RNA mensajero (mRNA), el RNA de transferencia (tRNA) y el RNA ribosómico (rRNA)\cite{Cech2014}.
+
+La visión clásica sobre el papel del RNA en la célula comenzó a cambiar en las últimas décadas del siglo XX, cuando comenzaron a descubrirse RNAs que no correspondían a ninguno de los tres tipos clásicos de RNA\cite{Cech2014}. Además, comenzaron a publicarse estudios que apuntaban a la existencia de RNAs con actividad catalítica, la cual únicamente se atribuía a proteínas\cite{Kruger1982}, así como al papel de RNAs no codificantes de proteína en la regulación de la expresión génica\cite{Brannan1990}. Sin embargo, no fue hasta los estudios realizados en \textit{C. elegans} a inicios de la década de los 2000 cuando comenzó a aceptarse en la comunidad científica que los RNAs no codificantes de proteína pueden desempeñar funciones relevantes biológicamente\cite{Grishok2001}. Hoy en día, se conoce una lista extensa de tipos de RNAs, la cual va mucho más allá de las funciones \verb="clásicas"= del RNA (Tabla \ref{table:ncRNAs}).
 
 
 \section{Estado del arte}
@@ -32,6 +38,26 @@
 
 \section{Imágenes y tablas}
 
+\begin{table}
+\begin{tabular}{p{2cm}p{5cm}p{9cm}}
+\textbf{Abreviación} & \textbf{Nombre} & \textbf{Descripción} \\
+\hline
+lncRNA & RNA largo no codificante & RNA que no codifica proteína y presenta una longitud superior a 200 nucleótidos. \\
+miRNA & microRNA & RNA no codificante con una longitud de 18-22 nucleótidos y que participa en el silenciamiento de la expresión génica mediante la unión específica a mRNAs diana. \\
+mRNA & RNA mensajero & RNA cuya secuencia contiene las instrucciones para sintetizar una proteína. \\
+piRNA & RNA asociado a PIWI & RNA que participa en la modificación de la cromatina para reprimir la transcripción génica. \\
+rRNA & RNA ribosómico & RNA componente de los ribosomas. Presenta función estructural y catalítica. \\
+snoRNA & RNA nucleolar pequeño & RNA que participa en la biogénesis del rRNA. \\
+snRNA & RNA nuclear pequeño & RNA localizado en el núcleo de células eucariotas. \\
+\hline
+\end{tabular}
+\caption{Lista de los principales tipos de RNAs no codificantes identificados en la actualidad. Adaptado de \cite{Cech2014}.}
+\label{table:ncRNAs}
+\end{table}
+
+
+
+
 
 \section{Fórmulas}
 
@@ -39,9 +65,8 @@
 
 \section{Bibliografía}
 
-
-
 \bibliography{bibliografia}
+\bibliographystyle{numeric-comp}
 
 
 \end{document}
