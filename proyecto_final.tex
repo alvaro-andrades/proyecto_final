@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage[pdftex]{graphicx}
 
 
 \begin{document}
@@ -14,7 +15,7 @@
 
 \section{Resumen}
 
-En el presente texto, se recoge una revisión sobre el papel de los RNAs no codificantes en cáncer. URL del repositorio en GitHub: \url{https://github.com/alvaro-andrades/proyecto_final} 
+En el presente texto, se recoge una revisión sobre el papel de los RNAs no codificantes en cáncer. Se comienza con una breve historia sobre los principales hallazgos acerca de las funciones biológicas de los RNAs no codificantes, para pasar a continuación a resumir el estado del arte. URL del repositorio en GitHub: \url{https://github.com/alvaro-andrades/proyecto_final} 
 
 \textbf{Palabras clave:} RNA no codificante, microRNA, RNA largo no codificante.
 
@@ -28,17 +29,16 @@ La visión clásica sobre el papel del RNA en la célula comenzó a cambiar en l
 
 \section{Estado del arte}
 
+En la última década, se han producido grandes avances en el conocimiento sobre el papel de RNAs no codificantes en cáncer. Un ejemplo es el de los RNAs largos no codificantes (lncRNAs), de los cuales se sabe a día de hoy que se encuentran implicados en todas las funciones características de las células tumorales\cite{Schmitt2016}(Figura \ref{figure:hallmarks}).
 
-\section{Metodología}
+Otros RNAs no codificantes ampliamente estudiados en la actualidad son los microRNAs (miRNAs). Los miRNAs participan en la regulación de la expresión génica y, en consecuencia, a menudo se encuentran alterados en cáncer\cite{Medina2008}.
 
-
-\section{Resultados}
-
+En la actualidad, hay un gran interés por investigar las alteraciones que sufren los RNAs no codificantes en cáncer, hasta el punto de que se han creado grandes consorcios para secuenciar genomas completos de pacientes de cáncer y, así, determinar las alteraciones que presentan en genes no codificantes\cite{Khurana2016}.
 
 
 \section{Imágenes y tablas}
 
-\begin{table}
+\begin{table}[h!]
 \begin{tabular}{p{2cm}p{5cm}p{9cm}}
 \textbf{Abreviación} & \textbf{Nombre} & \textbf{Descripción} \\
 \hline
@@ -56,7 +56,11 @@ snRNA & RNA nuclear pequeño & RNA localizado en el núcleo de células eucariot
 \end{table}
 
 
-
+\begin{figure}[h!]
+\includegraphics{figuras/hallmarks.jpg}
+\caption{Implicación de los RNAs largos no codificantes (lncRNAs) en las principales características distintivas del cáncer. Figura tomada de \cite{Schmitt2016}.}
+\label{fig:hallmarks}
+\end{figure}
 
 
 \section{Fórmulas}
